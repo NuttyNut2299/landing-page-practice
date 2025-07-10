@@ -100,11 +100,12 @@ ul {
 
 button {
     padding: 6px 12px;
-    max-width: 124px;
+    max-width: 128px;
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 8px;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .project-gallery {
@@ -133,6 +134,7 @@ button {
 
 .project .text{
     text-align: center;
+    margin: 16px 0;
 }
 
 .project {
@@ -173,4 +175,30 @@ h2 {
     color: #1F2937;
     align-self: flex-end;
     padding: 0 5% 0 0;
+}
+
+.contact-container {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 20%;
+    border-radius: 16px;
+    padding: 40px 5%;
+    color: white;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.contact-container h4, 
+.contact-container p
+{
+    margin: 0;
+}
+
+.contact-container button
+{
+    flex-shrink: 0;
 }
