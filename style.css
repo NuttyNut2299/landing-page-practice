@@ -28,7 +28,7 @@ ul {
 .project-gallery,
 .feedback-container,
 .contact-container {
-    padding: 0 200px;
+    padding: 0 10%;
 }
 
 .header, 
@@ -60,7 +60,7 @@ ul {
 .footer {
     justify-content: space-between;
     align-items: center;
-    padding: 12px 200px;
+    padding: 12px 10%;
 }
 
 .footer a{
@@ -71,7 +71,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    padding: 48px 200px;;
+    padding: 48px 10%;
 }
 
 .intro-text h1{
@@ -112,6 +112,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 48px 10%;
 }
 
 .project-gallery-container {
@@ -119,7 +120,7 @@ button {
     justify-content: center;
     align-items: stretch;
     align-content: space-evenly;
-    gap: 48px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 
@@ -135,12 +136,41 @@ button {
 }
 
 .project {
-    max-width: 300px;
-    flex-basis: 240px;
+    max-width: 360px;
+    flex-basis: 300px;
 }
 
 h2 {
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
+    margin: 0 0 30px;
+}
+
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 15%;
+}
+
+.feedback-container p{
+    margin: 0;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.client {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    padding: 0 5% 0 0;
 }
